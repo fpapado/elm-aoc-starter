@@ -1,25 +1,25 @@
 # Elm Advent of Code Starter
 
-This is a simple setup for starting to solve [Advent of Code](aoc) problems in [Elm](elm).
+This is a simple setup for starting to solve [Advent of Code][aoc] problems in [Elm][elm].
 
 ## What problem this addresses
 
 Advent of Code problems often take their input from a file.
 In Elm, we don't have a filesystem!
-This setup allows reading the input using [Elm flags](elm-flags).
+This setup allows reading the input using [Elm flags][elm-flags].
 
-Similarly, we set up tests with [`elm-test`](elm-test), so you can view your code on the command line, rather than having to set up a format for the browser.
+Similarly, we set up tests with [`elm-test`][elm-test], so you can view your code on the command line, rather than having to set up a format for the browser.
 
 You could do all of those things manually, or in a browser, or through the test interface. This is meant to be a starting point!
 
 ## Quick Start
 
-You will need [Node](node) and [npm](npm).\*npm comes installed with Node.
-It should not matter much which versions, though either way I'd recommend you use [nvm](nvm) to install Node. It works better without needing admin privileges for every npm installation.
+You will need [Node][node] and [npm][npm].\*npm comes installed with Node.
+It should not matter much which versions, though either way I'd recommend you use [nvm][nvm] to install Node. It works better without needing admin privileges for every npm installation.
 
 ### Option 1: Using git only
 
-You will need [git](git).
+You will need [git][git].
 
 Then, in a terminal, like iterm or gnome terminal, run:
 
