@@ -28,7 +28,7 @@ type Msg
 
 
 -- The main program is initialised as a Platform.Worker
--- A worker is a special kind of program, that does not have an User Interface
+-- A worker is a special kind of program, that does not have a User Interface (UI)
 -- It communicates exlcusively through ports.
 -- The main motivation here is running the scripts and printing them in the command line
 -- Note that this is unlike most Elm programs, which have a UI!
