@@ -17,9 +17,7 @@ You could do all of those things manually, or in a browser, or through the test 
 You will need [Node][node] and [npm][npm].\*npm comes installed with Node.
 It should not matter much which versions, though either way I'd recommend you use [nvm][nvm] to install Node. It works better without needing admin privileges for every npm installation.
 
-### Option 1: Using git only
-
-You will need [git][git].
+You will also need [git][git].
 
 Then, in a terminal, like iterm or gnome terminal, run:
 
@@ -27,19 +25,10 @@ Then, in a terminal, like iterm or gnome terminal, run:
 git clone https://github.com/fpapado/elm-aoc-starter aoc-2019-elm
 cd aoc-2019-elm
 npm ci
+
+# Remember to clean up the git directory
+rm .git/ -r
 ```
-
-### Option 2: Using `npm init`
-
-Then, in a terminal, like iterm or gnome terminal, run:
-
-```shell
-npm init elm-aoc aoc-2019-elm
-cd aoc-2019-elm
-npm ci
-```
-
-The files should be under the `elm-aoc` directory.
 
 ## Structure / Solving Advent of Code Problems
 
