@@ -34,10 +34,14 @@ The files should be under the `elm-aoc` directory.
 
 ## Structure / Solving Advent of Code Problems
 
-- Main.elm
-- Day1.elm
-- Day2.elm
-- DayXY.elm
-- Change the import in Main.elm
-- Run tests with `elm test` or `npm test`
-- npm run solve XY
+Adding a solution works as follows:
+- Copy the input that Advent of Code gives you to `inputs/dayX.txt`
+- Add your solution in an Elm module under `src`. I call them `DayX.elm`, but you can pick anything.
+- In `Main.elm`, import your module, and change the pattern match in `init` to call the respective function for the day and part.
+- Run `npm run solve day part`, e.g. `npm run solve 1 1`, in a terminal
+
+If you want to run tests:
+- Add a test module under `tests`, for example `tests/Day1Test.elm`
+- Write tests as you want :)
+- Run `npm run test` or `elm-test` directly, in a terminal
+

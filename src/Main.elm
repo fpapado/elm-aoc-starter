@@ -1,5 +1,8 @@
 port module Main exposing (..)
 
+-- A sample import
+
+import Day1
 import Platform
 
 
@@ -55,8 +58,11 @@ init flags =
         solution =
             case ( day, part ) of
                 -- Add more cases to the pattern match here!
+                ( 1, 1 ) ->
+                    Day1.part1 input
+
                 ( _, _ ) ->
-                    "No solution implemented for day "
+                    "WARNING: No solution implemented for day "
                         ++ String.fromInt day
                         ++ " part "
                         ++ String.fromInt part
