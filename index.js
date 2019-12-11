@@ -24,7 +24,7 @@ function main({day, part}) {
     input = fs.readFileSync(filename, {encoding: 'utf8'});
   } catch (err) {
     exitWithMessage(
-      `ERROR\nCould not read the input file at ${filename}.\nWe expect input files to be under inputs/dayX.txt.\nPerhaps it was named differently?\n(This is an error from the runner, not in your Elm program)`,
+      `\nERROR\nCould not read the input file at ${filename}.\nWe expect input files to be under inputs/dayX.txt.\nPerhaps it was named differently?\n(This is an error from the runner, not in your Elm program)`,
     );
   }
 
