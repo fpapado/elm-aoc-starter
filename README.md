@@ -14,7 +14,7 @@ You could do all of those things manually, or in a browser, or through the test 
 
 ## Quick Start
 
-You will need [Node][node] and [npm][npm].\*npm comes installed with Node.
+You will need [Node][node] and [npm][npm].\* npm comes installed with Node.
 It should not matter much which versions, though either way I'd recommend you use [nvm][nvm] to install Node. It works better without needing admin privileges for every npm installation.
 
 You will also need [git][git].
@@ -56,6 +56,7 @@ The Elm compiler can very well be run by itself, without needing Node :)
 [elm]: https://elm-lang.org/
 [elm-test]: https://github.com/elm-explorations/test
 [elm-flags]: https://guide.elm-lang.org/interop/flags.html
-[git]: https://help.github.com/en/github/getting-started-with-github/set-up-git
 [node]: https://nodejs.org/en/
 [npm]: https://www.npmjs.com/
+[nvm]: https://github.com/nvm-sh/nvm#installation-and-update
+[git]: https://help.github.com/en/github/getting-started-with-github/set-up-git
