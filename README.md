@@ -22,12 +22,10 @@ You will also need [git][git].
 Then, in a terminal, like iterm or gnome terminal, run:
 
 ```shell
-git clone https://github.com/fpapado/elm-aoc-starter aoc-2019-elm
+npx degit fpapado/elm-aoc-starter aoc-2019-elm
 cd aoc-2019-elm
 npm ci
-
-# Remember to clean up the git directory
-rm .git/ -r
+npm test
 ```
 
 ## Structure / Solving Advent of Code Problems
